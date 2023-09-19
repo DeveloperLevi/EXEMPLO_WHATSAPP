@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF5252</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="ic_writerStatusColor">@color/color13</color>
+    <!--color name="floatWriterColor">@color/white</color-->
+
+    <color name="item_selecionado_navigator_bar_color">@color/color4</color>
+
+
+    <color name="white_day_black_night_color">#000000</color>
+
+    <!-- COR DO BACKGROUND DO BOTTON_NAVIGATION_VIEW-->
+    <color name="background_botton_navigation_color">@color/color4</color>
+
+    <color name="primaryColor">@color/color4</color>
+    <color name="secondaryColor">#075e54</color>
+
+    <!-- cor de fundo dos floatsbutton-->
+    <color name="background_float_buttons_color">@color/color2</color>
+
+    <!-- vor do titulo da action BAR -->
+    <color name="color_title_action_bar_day_night">@color/color11</color>
+
+    <!-- cor dos icones dos menus-->
+    <color name="icon_menu_color">#ABC3CF</color>
+
+    <!-- CORES USADAS NO APP-->
+    <!-- FIM CORES USADAS NO APP-->
+
+    <!-- PALETA DE CORES DO THEMA ESCURO DO WHATSAPP-->
+    <color name="color1">#111a21</color>
+    <color name="color2">#00A884</color>
+    <color name="color3">#bac2c8</color>
+    <color name="color4">#1f2c33</color>
+    <color name="color5">#687278</color>
+    <color name="color6">#404a4f</color>
+    <color name="color7">#8a96a0</color>
+    <color name="color8">#c07c5b</color>
+    <color name="color9">#e5ecf0</color>
+    <color name="color10">#00FFC2</color>
+
+
+    <!-- background do float botton writer do status -->
+    <color name="color11">#3C4A55</color>
+
+    <color name="color12">#1F2C34</color>
+    <!-- cor do lapis do float writer -->
+    <color name="color13">#D3D8DC</color>
+
+    <color name="color14">#3C4A55</color>
+
+    <!-- COR DO ICONE ADD DO FLOAT BUTTON CONVERSAS -->
+    <color name="color15">#00A884</color>
+
+    <!-- COR DO ICONE DOS FLOAT ACTION BUTTON -->
+    <color name="color16">#2B2B2B</color>
+
+    <!-- COR DE FUNDO dos Cards das RECYCLERVIEW-->
+    <color name="color17">#121B22</color>
+
+    <!-- FIM PALETA DE CORES DO THEMA ESCURO DO WHATSAPP-->
+
+
+</resources>

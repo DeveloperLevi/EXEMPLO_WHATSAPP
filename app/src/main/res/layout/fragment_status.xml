@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:menu="@menu/menu_frag_status">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/primaryColor"
+            android:theme="@style/action_bar_theme"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:menu="@menu/menu_frag_status"
+            app:title="@string/title_action_bar"
+            app:titleMargin="0dp"
+            app:titleTextColor="@color/color_title_action_bar_day_night" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabWriter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="20dp"
+        android:foreground="@drawable/ic_lapis_round"
+        android:foregroundGravity="center"
+        app:backgroundTint="@color/floatWriterColor"
+        app:fabSize="mini"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Medium" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:foreground="@drawable/ic_camera_round"
+        android:foregroundGravity="center"
+        android:hapticFeedbackEnabled="false"
+        app:backgroundTint="@color/background_float_buttons_color"
+        app:backgroundTintMode="src_over"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Large" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color17"
+            tools:itemCount="20"
+            tools:listitem="@layout/card_status" />
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
