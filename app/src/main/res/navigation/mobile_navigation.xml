@@ -9,28 +9,28 @@
 
     <fragment
         android:id="@+id/navigation_conversas"
-        android:name="com.example.exemplowhatsapp.ui.conversas.ConversasFragment"
+        android:name="com.example.exemplowhatsapp.ui.fragments.ConversasFragment"
         android:label="Conversas"
         tools:layout="@layout/fragment_conversas" >
     </fragment>
 
     <fragment
         android:id="@+id/navigation_status"
-        android:name="com.example.exemplowhatsapp.ui.status.StatusFragment"
+        android:name="com.example.exemplowhatsapp.ui.fragments.StatusFragment"
         android:label="Status"
         tools:layout="@layout/fragment_status" >
     </fragment>
 
     <fragment
         android:id="@+id/navigation_comunidades"
-        android:name="com.example.exemplowhatsapp.ui.comunidades.ComunidadesFragment"
+        android:name="com.example.exemplowhatsapp.ui.fragments.ComunidadesFragment"
         android:label="Comunidades"
         tools:layout="@layout/fragment_comunidades" >
     </fragment>
 
     <fragment
         android:id="@+id/navigation_chamadas"
-        android:name="com.example.exemplowhatsapp.ui.chamadas.ChamadasFragment"
+        android:name="com.example.exemplowhatsapp.ui.fragments.ChamadasFragment"
         android:label="Status"
         tools:layout="@layout/fragment_chamadas" />
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!-- Importante realçar que, os Ids dos itens devem ser os mesmos dos destinos (fragments) definidos no arquivo mobile_navigation.xml -->
+
+    <item
+        android:id="@+id/menu_pesquisar"
+        android:icon="@drawable/foto_perfil_video"
+        android:title="Perquisar"
+        app:showAsAction="always"
+        android:iconTint="#D12A2A" />
+
+
+    <item
+        android:id="@+id/menu_perfil"
+        android:icon="@drawable/foto_perfil_chamada"
+        android:title="Perfil"
+        app:showAsAction="always"
+        />
+
+        <item
+            android:id="@+id/navigation_chamadas"
+            android:icon="@drawable/ic_menu_mais"
+            android:title="Mais"
+            app:showAsAction="always">
+            <menu >
+                <item
+                    android:id="@+id/menu_status_privacidade"
+                    android:title="Privacidade do status"
+                    app:showAsAction="collapseActionView">
+
+                </item>
+            </menu>
+       </item>
+
+
+
+
+
+</menu>

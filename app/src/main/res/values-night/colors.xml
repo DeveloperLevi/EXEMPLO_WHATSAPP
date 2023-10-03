@@ -15,6 +15,7 @@
 
 
     <color name="white_day_black_night_color">#000000</color>
+    <color name="black_day_white_night_color">#FFFFFF</color>
 
     <!-- COR DO BACKGROUND DO BOTTON_NAVIGATION_VIEW-->
     <color name="background_botton_navigation_color">@color/color4</color>
@@ -64,6 +65,21 @@
 
     <!-- COR DE FUNDO dos Cards das RECYCLERVIEW-->
     <color name="color17">#121B22</color>
+
+    <!-- imagens butoes activity foto do perfil-->
+    <color name="color18">#00A884</color>
+
+    <!-- cor de fundo do click do botão voltar-->
+    <color name="color19">#2DFFFFFF</color>
+
+    <!-- cor dos icones do layout de envio de mensagem da conversa-->
+    <color name="color20">#8795A0</color>
+
+    <!-- cor de fundo do layout da mensagem na activity conversa-->
+    <color name="color21">#1F2C34</color>
+
+    <!-- cor de fundo da conversa-->
+    <color name="color22">#121B22</color>
 
     <!-- FIM PALETA DE CORES DO THEMA ESCURO DO WHATSAPP-->
 

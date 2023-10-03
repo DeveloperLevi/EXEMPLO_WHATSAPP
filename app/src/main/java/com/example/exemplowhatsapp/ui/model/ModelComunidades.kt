@@ -11,23 +11,7 @@ class ModelComunidades(
         ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
         ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
         ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
-        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
-        ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
-        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
-        ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
-        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
-        ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
-        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
-        ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
-        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
-        ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
-        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
-        ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
-        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
-        ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
-        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
-        ModelComunidades("Meus as aquivos", "nome do filme -- jose maria", "10/10/2023"),
-        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023"),
-        )
+        ModelComunidades("cliente piquet carneidor", "deixe marcado pra segunda", "07/09/2023")
+          )
 
 }

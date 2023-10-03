@@ -25,4 +25,5 @@
         <item name="drawableTint">@color/icon_menu_color</item>
         <item name="android:textColor">@color/icon_menu_color</item>
     </style>
+    <!-- Base application theme. -->
 </resources>

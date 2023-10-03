@@ -1,4 +1,4 @@
-package com.example.exemplowhatsapp.ui.status
+package com.example.exemplowhatsapp.ui.fragments
 
 import android.animation.ObjectAnimator
 import android.os.Bundle

@@ -10,37 +10,10 @@
         />
 
     <item
-        android:id="@+id/menu_pesquisar"
-        android:icon="@drawable/ic_menu_search"
-        android:title="Perquisar"
-        app:showAsAction="always"
-        android:iconTint="#D12A2A" />
-
-
-    <item
         android:id="@+id/menu_perfil"
         android:icon="@drawable/ic_status"
         android:title="Perfil"
         app:showAsAction="always"
         />
-
-        <item
-            android:id="@+id/navigation_chamadas"
-            android:icon="@drawable/ic_menu_mais"
-            android:title="Mais"
-            app:showAsAction="always">
-            <menu >
-                <item
-                    android:id="@+id/menu_status_privacidade"
-                    android:title="Privacidade do status"
-                    app:showAsAction="collapseActionView">
-
-                </item>
-            </menu>
-       </item>
-
-
-
-
 
 </menu>

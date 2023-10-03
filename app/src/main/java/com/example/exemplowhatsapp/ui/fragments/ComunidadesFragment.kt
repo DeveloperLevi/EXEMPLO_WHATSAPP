@@ -1,4 +1,4 @@
-package com.example.exemplowhatsapp.ui.comunidades
+package com.example.exemplowhatsapp.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater

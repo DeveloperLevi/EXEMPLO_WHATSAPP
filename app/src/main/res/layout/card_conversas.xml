@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_card_conversas"
     android:layout_width="match_parent"
     android:layout_height="80dp"
     android:background="?attr/selectableItemBackground"
@@ -15,12 +16,21 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
-        android:background="#CD1B1B"
-        android:backgroundTint="#E43333"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="false"
         app:cardCornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgContato"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            app:srcCompat="@drawable/contato_1" />
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/txNomeContato"
@@ -28,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="nome contato"
+        android:textColor="@color/black_day_white_night_color"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/txData"

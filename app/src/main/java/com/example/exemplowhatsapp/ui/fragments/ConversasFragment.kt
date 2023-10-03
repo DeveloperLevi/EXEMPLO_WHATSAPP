@@ -1,4 +1,4 @@
-package com.example.exemplowhatsapp.ui.conversas
+package com.example.exemplowhatsapp.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -33,7 +33,7 @@ class ConversasFragment : Fragment() {
         binding.rvConversas.apply {
             //e sempre necessario aplicar o layout Maneger e o adapter para listar
             layoutManager = LinearLayoutManager(context)
-            adapter = AdapterConversas(ModelConversas().loadModelConversas())
+            adapter = AdapterConversas(context,ModelConversas().loadModelConversas())
         }
 
         return root

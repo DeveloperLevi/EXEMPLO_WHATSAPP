@@ -1,4 +1,4 @@
-package com.example.exemplowhatsapp.ui.chamadas
+package com.example.exemplowhatsapp.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater

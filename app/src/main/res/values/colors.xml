@@ -13,6 +13,7 @@
     <color name="floatWriterColor">@color/color14</color>
 
     <color name="white_day_black_night_color">#FFFFFFFF</color>
+    <color name="black_day_white_night_color">#000000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
@@ -37,6 +38,7 @@
     <color name="color3">#645a56</color>
     <!-- COR DA BARRA DE STATUS / ACTION BAR / FLOAT BUTTONS DOS FRAGMENTES / ICONE LAPIS -->
     <color name="color4">#008069</color>
+
     <color name="color5">#fefefe</color>
     <color name="color6">#ccaa78</color>
     <!-- color de fundo dos floats buttons -->
@@ -63,6 +65,20 @@
     <!-- COR DE FUNDO DAS RECYCLERVIEW-->
     <color name="color17">#FFFFFF</color>
 
+    <!-- imagens butoes activity foto do perfil-->
+    <color name="color18">#00A884</color>
+
+    <!-- cor de fundo do click do botão voltar-->
+    <color name="color19">#2D000000</color>
+
+    <!-- cor dos icones do layout de envio de mensagem da conversa-->
+    <color name="color20">#8795A0</color>
+
+    <!-- cor de fundo do layout da mensagem na activity conversa-->
+    <color name="color21">#FFFFFF</color>
+
+    <!-- cor de fundo da conversa-->
+    <color name="color22">#F2E9E2</color>
 
     <!-- PALETA DE CORES DO THEMA CLARO DO WHATSAPP-->
 
