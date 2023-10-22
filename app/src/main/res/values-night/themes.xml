@@ -25,5 +25,10 @@
         <item name="drawableTint">@color/icon_menu_color</item>
         <item name="android:textColor">@color/icon_menu_color</item>
     </style>
+
+    <style name="noDarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">#FFFFFF</item>
+        <item name="color">#FFFFFF</item>
+    </style>
     <!-- Base application theme. -->
 </resources>

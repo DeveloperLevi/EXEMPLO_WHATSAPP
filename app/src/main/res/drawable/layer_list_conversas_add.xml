@@ -8,5 +8,4 @@
         android:bottom="15px"
         android:gravity="center" >
     </item>
-
   </layer-list>

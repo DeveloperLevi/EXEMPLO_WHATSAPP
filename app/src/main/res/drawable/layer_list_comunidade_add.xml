@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:opacity="translucent"  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/add_comunidade" />
+
+    <item android:drawable="@drawable/add_white" >
+        <color android:color="@color/purple_500">
+
+        </color>
+
+    </item>
+
+
+  </layer-list>

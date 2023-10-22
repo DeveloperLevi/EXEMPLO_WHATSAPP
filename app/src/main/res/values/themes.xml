@@ -38,4 +38,9 @@
         <item name="windowNoTitle">true</item> <!-- SEM A BARRA DE TITULO DA DIALOG -->
     </style>
 
+    <style name="noDarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">#FFFFFF</item>
+        <item name="color">#FFFFFF</item>
+    </style>
+
 </resources> 

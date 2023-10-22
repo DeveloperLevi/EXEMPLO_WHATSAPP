@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:clickable="false">
+    android:clickable="false"
+    android:paddingBottom="5dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutVerTodos"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="?attr/selectableItemBackground"
+        android:backgroundTint="#FFFFFF"
         android:clickable="true"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,6 +35,7 @@
             android:layout_height="12dp"
             android:layout_marginStart="18dp"
             android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_seta_direita" />
@@ -43,14 +46,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/selectableItemBackground"
-        android:backgroundTint="#C54646"
+        android:backgroundTint="#FFFFFF"
         android:clickable="true"
+        android:paddingTop="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <View
-            android:id="@+id/view"
+            android:id="@+id/linhaDivisor"
             android:layout_width="0dp"
             android:layout_height="0.5dp"
             android:layout_marginStart="5dp"
@@ -70,17 +74,20 @@
             android:layout_marginBottom="10dp"
             android:background="#CD1B1B"
             android:backgroundTint="#E43333"
+            android:clipToPadding="false"
             app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.116">
 
             <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/imgComunidade"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 app:srcCompat="@drawable/ic_nova_comunidade" />
+
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -96,6 +103,27 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cardImgContatoCominidades"
             app:layout_constraintTop_toTopOf="@+id/cardImgContatoCominidades" />
+
+        <ImageView
+            android:id="@+id/imgAddComunidade"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="-2.5dp"
+            android:layout_marginBottom="-2.5dp"
+            android:background="@drawable/add_comunidade"
+            android:baselineAlignBottom="false"
+            android:forceHasOverlappingRendering="false"
+            android:foreground="@drawable/add_white"
+            android:foregroundTintMode="src_atop"
+            android:layerType="none"
+            android:theme="@style/noDarkTheme"
+            android:translationX="1.5dp"
+            android:translationY="1.5dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/cardImgContatoCominidades"
+            app:layout_constraintEnd_toEndOf="@+id/cardImgContatoCominidades"
+            tools:visibility="visible" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -103,7 +131,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/selectableItemBackground"
+        android:backgroundTint="#FFFFFF"
         android:clickable="true"
+        android:foregroundTint="#D3CCCC"
+        android:paddingTop="10dp"
         android:paddingBottom="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -155,11 +186,12 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/ic_aviso_comunidade_nigth" />
+                android:foreground="@drawable/ic_aviso_comunidade_nigth" />
         </androidx.cardview.widget.CardView>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

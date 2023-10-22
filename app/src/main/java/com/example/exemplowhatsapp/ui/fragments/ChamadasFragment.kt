@@ -45,7 +45,7 @@ class ChamadasFragment : Fragment() {
         // todo o codigo executado dentro do onCreateView deve ser antes do RETURN
         binding.rvChamadas.apply {
             layoutManager = LinearLayoutManager(context)
-            adapter = AdapterChamadas(ModelChamadas().loadModelChamadas())
+            adapter = AdapterChamadas(context,ModelChamadas().loadModelChamadas())
         }
 
         return root

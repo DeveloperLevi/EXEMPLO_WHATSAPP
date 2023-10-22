@@ -80,6 +80,9 @@
     <!-- cor de fundo da conversa-->
     <color name="color22">#F2E9E2</color>
 
+    <!-- cor de fundo da conversa-->
+    <color name="color23">#FFFFFF</color>
+
     <!-- PALETA DE CORES DO THEMA CLARO DO WHATSAPP-->
 
 </resources>
